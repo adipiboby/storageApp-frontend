@@ -98,6 +98,7 @@ const Login = () => {
           onSuccess={async (credentialResponse) => {
             try {
               const data = await loginWithGoogle(credentialResponse.credential);
+              console.log("data run indhi");
               if (!data.error) navigate("/");
             } catch (err) {
               console.error("Google login failed:", err);
