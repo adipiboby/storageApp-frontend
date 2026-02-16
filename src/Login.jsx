@@ -101,6 +101,8 @@ const Login = () => {
               console.log("data run indhi");
               if (!data.error) navigate("/");
             } catch (err) {
+              console.log("google error");
+              console.log("run");
               console.error("Google login failed:", err);
             }
           }}
