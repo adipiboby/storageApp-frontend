@@ -23,7 +23,7 @@ Frontend for the Storage App built using React.js.
 
 ## 🔗 Backend Repository
 
-https://github.com/adipibiby/storage-app-backend  
+https://github.com/adipiboby/storage-app-backend  
 
 ---
 
